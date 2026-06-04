@@ -1,7 +1,7 @@
 from Scrapper.web import fetch_website_links, fetch_website_contents
 
 def scrape_(target_url,relevant_links):
-    print("\n[3/6] Scraping priority pages to build corporate context...")
+    print("\n Scraping priority pages to build corporate context...")
     company_knowledge_base = {
         "homepage": fetch_website_contents(target_url)
     }
